@@ -1,7 +1,7 @@
 # Requirements
 
 A list will be created with the information from the file d.in (the list will be formed by adding elements at the beginning - O(1)).
-Teams with the lowest team score (information on how this score is calculated can be found in the Technical Details section) will be removed from the previously created list so that only n teams remain (where n is the maximum possible power of 2). If multiple teams have the same score, the first team found in the list will be removed. After each removal, the list traversal will restart from the beginning.
+Teams with the lowest team score will be removed from the previously created list so that only n teams remain (where n is the maximum possible power of 2). If multiple teams have the same score, the first team found in the list will be removed. After each removal, the list traversal will restart from the beginning.
 The necessary data structures will be implemented to conduct the matches:
 A queue will be created in which matches between teams will be placed.
 Teams will form matches in the order they appear in the previous list, the first two teams forming the first match (and so on).
